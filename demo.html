@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   <H1>démo javascript</H1> 
+   <script>
+        /* var eleve = {
+            nom: 'Johnny',
+            present: function() {
+                var self = this;
+                var demo = {
+                    demo: function() {
+                    console.log(self);
+                    }
+                }
+                demo.demo();
+                console.log(this.nom + " présent");
+            }
+        }
+    eleve.present(); */
+    
+    var eleves = ['Marc', 'Jean', 'Mario'];
+    
+    eleves[3] = "Antoine";
+
+    for (var i = 0; i < eleves.length; i++) {
+        var eleve = eleves[i];
+        console.log("Bonjour " + eleve);
+    }
+
+    for (var i = eleves.length - 1; i >= 0; i--){
+        console.log("Salut " + eleves[i]);
+    }
+
+
+    /* 
+    %
+    le nombre est premier s'il est divisible q par lui meme et par 2
+    ou
+    le nombre n'est pas premier s'il 
+    
+    */
+
+
+
+    </script>
+</body>
+</html>

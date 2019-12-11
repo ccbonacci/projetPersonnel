@@ -1,0 +1,88 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+body{
+    line-height: 1.625;
+    margin: 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#66ceee+0,b8e7c5+100 */
+    background: #66ceee; /* Old browsers */
+    background: -moz-linear-gradient(top,  #66ceee 0%, #b8e7c5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #66ceee 0%,#b8e7c5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #66ceee 0%,#b8e7c5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ceee', endColorstr='#b8e7c5',GradientType=0 ); /* IE6-9 */
+    ;
+    color: #fff;
+    text-align: center;
+}
+
+.name{
+    font-size: 2rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.title-job {
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.text-presentation{
+    margin-top: 1rem ;
+    padding-left: 1.5rem;
+    text-align: justify;
+}
+
+@media only screen and (min-width: 920px) {
+    html{
+        font-size: 16px;
+    }
+
+    .header{
+        text-align: left;
+        padding-left: 4rem;
+    }
+
+    .text-presentation{
+        margin-top: 1.5rem;
+    }
+}
+
+#fond-gris {
+    background-color: lightgrey;
+    width: 100%;
+}
