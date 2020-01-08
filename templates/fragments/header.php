@@ -25,8 +25,9 @@ require_once $root . "/lib/functions.php";
 
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="/css/style.css" type="text/css"/>
-    <script>
 
+    <script>
+      
       var eleve = {
         nom: 'Johnny',
         present: function() {
@@ -63,8 +64,41 @@ require_once $root . "/lib/functions.php";
           alert('Aïe, arretez de cliquer !!');
           }
         ); */
+
     </script>
-    
+
+    <script>
+    var xmlhttp = new XMLHttpRequest();
+    var url = "https://opendata.paris.fr/api/records/1.0/search/?dataset=arbresremarquablesparis&rows=11&facet=genre&facet=espece&facet=stadedeveloppement&facet=varieteoucultivar&facet=dateplantation&facet=libellefrancais";
+
+    xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            var myArr = JSON.parse(this.responseText);
+            displayJson(myArr);
+        }
+    };
+    xmlhttp.open("GET", url, true);
+    xmlhttp.send();
+
+    function displayJson(jsonRoot) {
+        var out = "";
+        // on veut que out contienne tous les libellés francais des arbres
+        // jsonRoot.records[0].fields.libellefrancais
+        var i;
+        for (i = 0 ; i < jsonRoot.records.length ; i++){
+          var treeName = jsonRoot.records[i].fields.libellefrancais;
+          var treeArrondismntParis = jsonRoot.records[i].fields.arrondissement;
+          out += " " + treeName + " " + treeArrondismntParis + "<br>";
+        }
+
+        //var i;
+        /* for(i = 0; i < arr.length; i++) {
+            out += '<a href="' + arr[i].url + '">' +
+            arr[i].display + '</a><br>';
+        } */
+        document.getElementById("id01").innerHTML = out;
+    }
+    </script>
   </head>
   <body onload="myFunction()">
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
