@@ -1,4 +1,5 @@
 # projetPersonnel
+Ceci est un exercice
 je suis toto parfois
 - Marie
 - Fabien
