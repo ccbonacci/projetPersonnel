@@ -4,6 +4,8 @@ font-family: 'Open Sans', sans-serif;
 
 *, *::before, *::after{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -85,4 +87,16 @@ a{
 #fond-gris {
     background-color: lightgrey;
     width: 100%;
+}
+.text-question{
+    text-align: start;
+    width: fit-content;
+    border-radius: 23px 23px 23px 0px;
+    margin-right: auto;
+}
+.text-response{
+    text-align: end;
+    width: fit-content;
+    border-radius: 23px 23px 0px 23px;
+    margin-left: auto;
 }

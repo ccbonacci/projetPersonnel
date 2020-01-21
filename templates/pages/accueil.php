@@ -10,7 +10,7 @@ require "templates/fragments/header.php";
   Je me présente : Carole Bonacci, développeuse web beginner </p>
   <p>C'est toujours plus agréable de faire connaissance autour d'une tasse de thé mais en attendant, voici mon site. Ce site est en cours de construction, merci pour votre indulgence</p>
 </div>
-<div id="id01"></div>
+
 <div class="container">
   <div>
     <div class="col-lg-10 col-med-10 col-sm-11">
@@ -38,7 +38,7 @@ require "templates/fragments/header.php";
       </div>
     </div>
   </div>
-
+  <div id="id01">Ici un exercice pour importer du contenu d'un site via un script en javascript</div>
   <div>
     <div class="col-med-2">
       <button class="btn btn-primary" onclick="onButtonClick()">
