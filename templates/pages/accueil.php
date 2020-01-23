@@ -11,6 +11,11 @@ require "templates/fragments/header.php";
   <p>C'est toujours plus agréable de faire connaissance autour d'une tasse de thé mais en attendant, voici mon site. Ce site est en cours de construction, merci pour votre indulgence</p>
 </div>
 
+
+<div class="container face col-6" id="face">
+  
+</div>
+
 <div class="container">
   <div>
     <div class="col-lg-10 col-med-10 col-sm-11">
