@@ -6,6 +6,7 @@ require $root . "/templates/fragments/header.php";
 <div class="starter-template">
     <h2 class="title">Voici mon curriculum vitae</h2>
     <p class="lead">C'est toujours plus agréable de faire connaissance autour d'une tasse de thé mais en attendant, voici mon CV</p>
+    <p>Mon CV est en cours d'intégration</p>
   </div>
 
 <section id="cv">

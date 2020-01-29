@@ -105,10 +105,10 @@ a{
 }
 .face{
     width: 200px;
-    height: 200px;
+    height: 350px;
     animation: mymove 5s;
-    background-image: url("/img/choux.png");
-    background-size: contain;
+    background-image: url("/img/IMG_me.jpg");
+    background-size: cover;
 }
 @keyframes mymove{
     from {
@@ -116,7 +116,7 @@ a{
         opacity:0;
     }
     to {
-        left:0;
+        left:0px;
         opacity:1;
     }
 }
