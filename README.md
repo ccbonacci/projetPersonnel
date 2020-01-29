@@ -1,14 +1,14 @@
 # projetPersonnel
-Ceci est un exercice - Je ne sais pas comment faire un retour à la ligne
+Ceci est un exercice - Je ne sais pas comment faire un retour à la ligne mais je vais apprendre :)
 
 
-je suis toto parfois
+Voici une liste
 - Marie
 - Fabien
 - Carole
-- momos
-- mimi
+- Amos
+- mimi Wisty
 
 
-
+Au fait, 
 *Véranne* est dans **la Loire**
