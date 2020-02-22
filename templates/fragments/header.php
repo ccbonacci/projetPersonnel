@@ -26,82 +26,10 @@ require_once $root . "/lib/functions.php";
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="/css/style.css" type="text/css"/>
 
-    <script>
-      
-      var eleve = {
-        nom: 'Johnny',
-        present: function() {
-          var self = this;
-          var demo = {
-            demo: function() {
-              console.log(self)
-            }
-          }
-          demo.demo();
-          console.log(this.nom + " présent");
-        }
-      }
-      eleve.present();
-
-      function myFunction() {
-        console.log("Hello Word");
-      }
-
-      var clickNumber = 0;
-
-      function onButtonClick(){
-        if (clickNumber === 0) {
-          document.getElementById("fond-gris").style = "background-color : red;";
-        } else {
-          document.getElementById("fond-gris").style = "background-color : black;";
-        }
-        clickNumber ++;      
-      }
-
-      /* document.querySelector('html').addEventListener('click', 
-      function() 
-        { 
-          alert('Aïe, arretez de cliquer !!');
-          }
-        ); */
-
-    </script>
-
-    <script>
-    var xmlhttp = new XMLHttpRequest();
-    var url = "https://opendata.paris.fr/api/records/1.0/search/?dataset=arbresremarquablesparis&rows=11&facet=genre&facet=espece&facet=stadedeveloppement&facet=varieteoucultivar&facet=dateplantation&facet=libellefrancais";
-
-    xmlhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            var myArr = JSON.parse(this.responseText);
-            displayJson(myArr);
-        }
-    };
-    xmlhttp.open("GET", url, true);
-    xmlhttp.send();
-
-    function displayJson(jsonRoot) {
-        var out = "";
-        // on veut que la variable "out" contienne tous les libellés francais des arbres
-        // jsonRoot.records[0].fields.libellefrancais
-        var i;
-        for (i = 0 ; i < jsonRoot.records.length ; i++){
-          var treeName = jsonRoot.records[i].fields.libellefrancais;
-          var treeArrondismntParis = jsonRoot.records[i].fields.arrondissement;
-          out += " " + treeName + " " + treeArrondismntParis + "<br>";
-        }
-
-        //var i;
-        /* for(i = 0; i < arr.length; i++) {
-            out += '<a href="' + arr[i].url + '">' +
-            arr[i].display + '</a><br>';
-        } */
-        document.getElementById("id01").innerHTML = out;
-    }
-    </script>
   </head>
+
   <body onload="myFunction()">
-    <nav class="navbar navbar-expand-md navbar-dark bg-info mb-4 mw-100">
+    <nav class="navbar navbar-expand-md navbar-dark bg-info mb-4 mw-100 shadow-sm">
       <a class="navbar-brand" href="/index.php">Web-CarBo</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

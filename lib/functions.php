@@ -17,6 +17,7 @@ function nav_menu(string $linkClass = ""): string {
     return 
         nav_item("/index.php", "Accueil", $linkClass) .
         nav_item("/templates/pages/cv.php", "C.V.", $linkClass) .
+        nav_item("/templates/pages/exercices.php", "Exercices", $linkClass) .
         nav_item("/templates/pages/contact.php", "Contact", $linkClass);
 
 }
