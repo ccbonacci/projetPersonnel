@@ -1,5 +1,8 @@
 <?php
-// ici les fonctions php du site
+// Ici les fonctions php du site
+
+// Les fonctions pour afficher les éléments dans la barre de navigation;
+// Formation php et exercices avec Grafikart
 
 function nav_item(string $lien, string $titre, string $linkClasse = ""): string {
     $classe = 'nav-item';

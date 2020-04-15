@@ -36,23 +36,42 @@ require $root . "/templates/fragments/header.php";
       document.getElementById("id01").innerHTML = out;
   }
 </script>
-<h2>Entrainement</h2>
-<p>Ici, je m'entraine, je pratique quelques exercices lors de la session de programmation du mercredi. Si ça vous intéresse, nous en discuterons in private ;)</p>
-<h6>Ici un exercice pour importer du contenu d'un site via un script en javascript</h6>
+<div >
+  <h2>Entrainement</h2>
+  <div class="row">
+    <p class="col-lg-6 col-md-6 col-sm-12 text-wrap">Ici, je m'entraine, je pratique quelques exercices en javascript lors de "la session de programmation du mercredi" avec un développeur.
+    Tout d'abord, les bases. Notamment celles de l'algorithmique mais les exercices ne se trouvent pas sur ce site.</p> 
+    <p class="col-lg-6 col-md-6 col-sm-12 text-wrap">J'ai trouvé un cours génial que je partage plus bas. Si ça vous intéresse, nous pouvons échanger sur ce sujet passionnant.</br>Bientot objectif JAVA ! Je suis ravie, ça fait longtemps que j'attends ce moment !</p>
+  </div>
+  
+</div>
+
+
+<div class="mt-4 mb-4">
+  <h4>Exercices</h4>
+  <p>Ici un exercice pour importer du contenu d'un site via un script en javascript</p>
   <div id="id01" class="text-capitalize">
   
   </div>
-  <div class="mt-3">
-    <div class="col-md-2">
-      <button class="btn btn-primary" onclick="onButtonClick()">
-        Cliquez ici
-      </button>
-    </div>
-    <div id="fond-gris" class=" col-lg-8 col-med-4 col-sm-4 btn ">
+</div>
 
-    </div>
-  </div>
+  
+<!-- <div class="col-md-2">
+  <button class="btn btn-primary" onclick="onButtonClick()">
+    Cliquez ici
+  </button>
+</div>
+<div id="fond-gris" class=" col-lg-8 col-med-4 col-sm-4 btn">
+    
+</div> -->
+
+<div class="mt-4 mb-4">
+  <h4>Les liens, c'est par ici</h4>
+  <a href="http://pise.info/algo/codage.htm">Algorithmique et programmation pour non-matheux.</a>
+  <p>Avis aux alergiques aux Shadoks, par prudence mieux vaut s'abstenir XD</p>
+
+</div>
 
 
-  <?php require $root . "/templates/fragments/footer.php";
+<?php require $root ."/templates/fragments/footer.php";
 ?>

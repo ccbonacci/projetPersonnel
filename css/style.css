@@ -58,10 +58,10 @@ a{
     margin-top: 2rem;
 }
 
-.title-job {
+.title-job, .title-skills {
     font-size: 1.5rem;
-    padding-bottom: 0.5rem;
 }
+
 
 .text-presentation{
     margin-top: 1rem ;
@@ -86,16 +86,17 @@ a{
 
 #fond-gris {
     background-color: lightgrey;
-    width: 100%;
+    width: 50%;
 }
+
 .text-question{
     text-align: start;
     width: fit-content;
     width: -moz-fit-content;
-
     border-radius: 23px 23px 23px 0px;
     margin-right: auto;
 }
+
 .text-response{
     text-align: end;
     width: fit-content;
@@ -103,6 +104,7 @@ a{
     border-radius: 23px 23px 0px 23px;
     margin-left: auto;
 }
+
 .face{
     width: 200px;
     height: 350px;
@@ -110,6 +112,7 @@ a{
     background-image: url("/img/IMG_me.jpg");
     background-size: cover;
 }
+
 @keyframes mymove{
     from {
         left:-420px;
@@ -120,7 +123,140 @@ a{
         opacity:1;
     }
 }
+
 /* .face:hover{
     transform: scale(0.5, 0.5);
     opacity: 0;
 } */
+
+.skills li{
+    list-style-type: none;
+    margin-left: 20%;
+    line-height: 2em;
+}
+
+/* pattern */
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 350px;
+  height: 327px;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-radial-gradient(100% 150%, circle, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), -webkit-radial-gradient(0 150%, circle, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), -webkit-radial-gradient(50% 100%, circle, #FFFFFF 10%, rgb(165,207,249) 11%, rgb(165,207,249) 23%, #FFFFFF 24%, #FFFFFF 30%, rgb(165,207,249) 31%, rgb(165,207,249) 43%, #FFFFFF 44%, #FFFFFF 50%, rgb(165,207,249) 51%, rgb(165,207,249) 63%, #FFFFFF 64%, #FFFFFF 71%, rgba(0,0,0,0) 71%, rgba(0,0,0,0) 100%), -webkit-radial-gradient(100% 50%, circle, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), -webkit-radial-gradient(0 50%, circle, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
+  background: -moz-radial-gradient(100% 150%, circle, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), -moz-radial-gradient(0 150%, circle, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), -moz-radial-gradient(50% 100%, circle, #FFFFFF 10%, rgb(165,207,249) 11%, rgb(165,207,249) 23%, #FFFFFF 24%, #FFFFFF 30%, rgb(165,207,249) 31%, rgb(165,207,249) 43%, #FFFFFF 44%, #FFFFFF 50%, rgb(165,207,249) 51%, rgb(165,207,249) 63%, #FFFFFF 64%, #FFFFFF 71%, rgba(0,0,0,0) 71%, rgba(0,0,0,0) 100%), -moz-radial-gradient(100% 50%, circle, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), -moz-radial-gradient(0 50%, circle, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
+  background: radial-gradient(circle at 100% 150%, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), radial-gradient(circle at 0 150%, rgb(165,207,249) 24%, #FFFFFF 25%, #FFFFFF 28%, rgb(165,207,249) 29%, rgb(165,207,249) 36%, #FFFFFF 36%, #FFFFFF 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 100%), radial-gradient(circle at 50% 100%, #FFFFFF 10%, rgb(165,207,249) 11%, rgb(165,207,249) 23%, #FFFFFF 24%, #FFFFFF 30%, rgb(165,207,249) 31%, rgb(165,207,249) 43%, #FFFFFF 44%, #FFFFFF 50%, rgb(165,207,249) 51%, rgb(165,207,249) 63%, #FFFFFF 64%, #FFFFFF 71%, rgba(0,0,0,0) 71%, rgba(0,0,0,0) 100%), radial-gradient(circle at 100% 50%, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%), radial-gradient(circle at 0 50%, #FFFFFF 5%, rgb(165,207,249) 6%, rgb(165,207,249) 15%, #FFFFFF 16%, #FFFFFF 20%, rgb(165,207,249) 21%, rgb(165,207,249) 30%, #FFFFFF 31%, #FFFFFF 35%, rgb(165,207,249) 36%, rgb(165,207,249) 45%, #FFFFFF 46%, #FFFFFF 49%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%);
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 100px 50px;
+  background-size: 100px 50px;
+}
+
+/* sprites pour les compétences*/
+
+.bg-cursIde {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -10px -10px;
+}
+
+.bg-cursItal {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -10px -84px;
+}
+
+.bg-cursJs {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -10px -158px;
+}
+
+.bg-cursMysql {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -10px -232px;
+}
+
+.bg-cursPhp {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -331px -10px;
+}
+
+.bg-cursPs {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -331px -84px;
+}
+
+.bg-cursSymf {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -331px -158px;
+}
+
+.bg-cursAnglais {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -331px -232px;
+}
+
+.bg-cursBootst {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -10px -306px;
+}
+
+.bg-cursCss {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -331px -306px;
+}
+
+.bg-cursFigma {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -10px -380px;
+}
+
+.bg-cursGit {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -331px -380px;
+}
+
+.bg-cursHtml {
+    width: 301px; height: 54px;
+    background: url ('img/sprites.png') -10px -454px;
+}
+
+/* sprites pour les réseaux sociaux */
+.bg-insta {
+    width: 92px; height: 92px;
+    background: url('spritesReseauSociaux.png') -1px -353px;
+}
+
+.bg-linkedIn {
+    width: 94px; height: 94px;
+    background: url('spritesReseauSociaux.png') -1px -447px;
+}
+
+.bg-meetUp {
+    width: 92px; height: 89px;
+    background: url('spritesReseauSociaux.png') -1px -170px;
+}
+
+.bg-pinterest {
+    width: 68px; height: 88px;
+    background: url('spritesReseauSociaux.png') -1px -80px;
+}
+
+.bg-twitter {
+    width: 95px; height: 77px;
+    background: url('spritesReseauSociaux.png') -1px -1px;
+}
+
+.bg-discord {
+    width: 96px; height: 105px;
+    background: url('spritesReseauSociaux.png') -1px -543px;
+}
+
+.bg-gitHub {
+    width: 90px; height: 90px;
+    background: url('spritesReseauSociaux.png') -1px -261px;
+}

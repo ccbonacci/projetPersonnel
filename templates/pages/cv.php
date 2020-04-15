@@ -13,9 +13,9 @@ require $root . "/templates/fragments/header.php";
 
   <!-- entête -->
   <div class="container">
-    <div class="header">
+    <div class="header rounded-top">
       <p class="name">Carole BONACCI</p>
-      <p class="title-job">// Développeuse Web junior</p>
+      <p class="title-job pb-3">// Développeuse Web junior</p>
     </div>
   </div>
 
@@ -23,20 +23,21 @@ require $root . "/templates/fragments/header.php";
   <div class="container row mb-5">
     <div class="col-lg-2 col-md-3 col-sm-1"></div>
     <div class="col-lg-8 col-md-6 col-sm-10">
-      <p class="text-presentation ">«Développeuse Web junior, je souhaite intégrer une équipe de super-développeurs aux supers pouvoirs pour en apprendre plus.</p>
-      <p class="text-presentation ">Curieuse, j’aime m’investir dans différents projets, je sais faire preuve de rigueur et souhaite toujours progresser. Mes facilités d’adaptation et d’intégration sont appuyées par mes expériences de manager, commerciales et administratives. Mon objectif est de devenir développeuse <strong>full stack experte</strong>.»</p>
+      <p class="text-presentation ">«Vous souhaitez former une <strong>développeuse full stack</strong> à la culture de votre entreprise ? Par le biais de <strong>l'alternance</strong> ? Vous recherchez une personne <strong>motivée, curieuse et rigoureuse</strong>, afin de compléter votre équipe de développeurs ? <strong>Rencontrons-nous !</strong>.</p>
+      <p class="text-presentation ">Je suis sortie de ma zone de confort pour faire un bilan de comptétences puis une reconversion professionnelle en Webdesign. C'est un vrai choix. Aujourd'hui en autoformation, je poursuis mon objectif pour devenir une développeuse <strong>full stack</strong>. Je travaille le front et le back car je suis <strong>passionnément curieuse</strong>. L'idéal serait d'intégrer une équipe de super-développeurs aux super-pouvoirs pour apprendre et réaliser ensemble différents challenges dans la joie et la bonne humeur. Mes facilités d'adaptation et d'intégration sont appuyées par mes expériences de manager, commerciales et administratives.</p>
     </div>
     <div class="col-lg-2 col-md-3 col-sm-1"></div>
   </div>
 
   <div class="container row mx-0">
-    
     <!-- expériences -->
-    <div class="col-sm-12 col-md-12 col-lg-7 ">
+    <div class="col-sm-12 col-md-12 col-lg-7 experiences">
 
       <!-- formations -->
-      
-      <div class="d-flex p-2 mb-2 bg-secondary text-white text-question">Quelles formations ?</div>
+      <div class="d-flex p-2 mb-0 bg-secondary text-white text-question">
+        Quelles formations ?
+      </div>
+      <div class="d-flex text-right justify-content-end p-2 mb-2 bg-info text-white text-response">Octobre 2020 avec l'Ipi Lyon - Développeuse fullstack Niv6</div>
       <div class="d-flex text-right justify-content-end p-2 mb-2 bg-info text-white text-response">2018-19 WebDesigner Niv5(bac+2)</div>
       <div class="d-flex text-right justify-content-end p-2 mb-2 bg-info text-white text-response">En 99 BTS Action commerciales à Grenoble</div>
       <div class="d-flex text-right justify-content-end p-2 mb-2 bg-info text-white text-response">En 96 Deug de Droit à St Etienne</div>
@@ -59,17 +60,44 @@ require $root . "/templates/fragments/header.php";
     </div>
     
     <!-- compétences -->
-    <div class="col-sm-12 col-md-12 col-lg-5">
-      
+    <div class="col-sm-12 col-md-12 col-lg-5 skills">
+      <ul>
+        <li class="title-skills">// COMPETENCES</li>
+        <li class="title-skills">// Technologies</li>
+          <ul class="ml-4 col-8">
+            <li>PHP 7 Orienté objet</li>
+            <li>Base de données MySQL</li>
+            <li>Javascripst</li>
+            <li>HTML 5</li>
+            <li>CSS 3 Responsive</li>
+            <li>Bootstrap</li>
+            <li>Git</li>
+            <li>Symfony</li>
+            <li>IDE Visual studio code, Netbeans</li>
+            <li>Photoshop</li>
+            <li class="pb-4">Figma</li>
+          </ul>
+        <li class="title-skills">// Langues</li>
+          <ul class="ml-4 col-8">
+            <li>anglais - B1 </li>
+            <li>italien</li>
+          </ul>
+      </ul>
+      <!-- <div class="col-4">
+        <p><img src="/img/sprites.png" class="bg-cursPhp"></p>
+      </div> -->
     </div>
-
+    
   </div>
 
+  <div class="btn btn-info mt-5">
+    <a href="./img/cv_carole_bonacci.pdf" title="Mon cv au format pdf" download="cv_carole_bonacci.pdf">Télécharger mon CV</a>
+  </div>
 
 </section>
 
 <!-- l'image de mon CV avant l'intégration de ce dernier-->
-<div class="container">
+<div class="container mt-5 mb-5">
     <img class="img" src="/img/CV.png" alt="mon curriculum vitae">
 </div>
 

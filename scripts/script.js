@@ -1,12 +1,17 @@
 /* 
     // Souhaiter la bienvenue à l'utilisateur
+
     // Saisir une valeur nom de l'utilisateur visiteur du blog
+
 var nom = window.prompt("Saisissez votre prénom : ");
 
 // affichez le titre de bienvenue dans le h1 du html
+
 var titre = document.querySelector("h1")
 titre.textContent = "Bonjour et bienvenue " + nom ; */
 
+
+// exercices avec console.log()
 var eleve = {
     nom: 'Johnny',
     present: function() {
@@ -25,12 +30,14 @@ var eleve = {
   function myFunction() {
     console.log("Hello Word");
   }
+ 
+  // Exercice : faire une fonction qui change la couleur d'un élémment dans une page
 
   var clickNumber = 0;
 
   function onButtonClick(){
     if (clickNumber === 0) {
-      document.getElementById("fond-gris").style = "background-color : red;";
+      document.getElementById("fond-gris").style = "background-color : 6acfec;";
     } else {
       document.getElementById("fond-gris").style = "background-color : black;";
     }
@@ -40,6 +47,6 @@ var eleve = {
   /* document.querySelector('html').addEventListener('click', 
   function() 
     { 
-      alert('Aïe, arretez de cliquer !!');
+      alert('Shadok, Arretez de cliquer ! Pompez plutôt!');
       }
     ); */
