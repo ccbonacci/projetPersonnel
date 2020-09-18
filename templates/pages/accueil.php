@@ -9,7 +9,7 @@ require "templates/fragments/header.php";
   <div class="lead">
     <p>C'est toujours plus agréable de faire connaissance autour d'une tasse de thé mais en attendant, voici mon site. Je me présente : Carole Bonacci, développeuse web beginner.</p>
   </div>
-  <p>Ce site est en cours d'intégration, merci pour votre compréhension coucou la compagnie</p>
+  <p>Ce site est en cours d'intégration, merci pour votre compréhension</p>
 </div>
 
 
